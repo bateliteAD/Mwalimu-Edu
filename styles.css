@@ -3,9 +3,6 @@ body {
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 
@@ -55,4 +52,21 @@ button:hover {
 a {
     color: #7f9abe;
     text-decoration: none;
+}
+header{
+    display:block;
+
+}
+.header_container{
+    justify-items: center;
+}
+.header_container a{
+    color: white;
+    text-decoration: none;
+}
+.header_container ul{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+
 }
